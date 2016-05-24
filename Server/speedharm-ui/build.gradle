@@ -1,0 +1,80 @@
+group 'fhwa-saxton'
+version '1.0-SNAPSHOT'
+
+boolean mkdirIfNotExists(path) {
+    def f = file(path)
+
+    if (!f.exists()) {
+        f.mkdirs()
+    }
+
+    def tmp = f.exists();
+
+    return tmp
+}
+
+task getNodeDependencies(type: Exec) {
+    description = "Download and install Node.JS modules\nNot in build dependency tree due to speed issues."
+    inputs.file file('src/package.json')
+    outputs.dir file('src/node_modules')
+    workingDir "src"
+    commandLine "cmd", "/c", "npm install --cache"
+}
+
+task setupBuildFolder {
+    description = "Ensure the proper build directories exist"
+    doLast {
+        mkdirIfNotExists("build/css")
+        mkdirIfNotExists("build/js")
+        mkdirIfNotExists("build/html")
+        mkdirIfNotExists("build/assets")
+    }
+}
+
+task compileSass(dependsOn: 'setupBuildFolder', type: Exec) {
+    description = "Invoke the SASS compiler to generate CSS"
+    group = "compilation"
+    inputs.dir file('src/sass')
+    outputs.dir file('build/css')
+    workingDir "src"
+    commandLine "cmd", "/c", "sass --update sass:../build/css"
+}
+
+task runWebpack(dependsOn: 'setupBuildFolder', type: Exec) {
+    description = "Bundle JS files and libraries for deployment"
+    group = "compilation"
+    inputs.dir file('src/js')
+    outputs.dir file('build/js')
+    workingDir "src"
+    commandLine "cmd", "/c", "webpack"
+}
+
+task build(dependsOn: ['compileSass', 'runWebpack']) {
+    description = "Core build task"
+    group = "build"
+    doLast {
+        copy {
+            from 'src/html'
+            into 'build/html'
+        }
+        copy {
+            from 'src/assets'
+            into 'build/assets'
+        }
+    }
+}
+
+task clean {
+    description = "Delete the build folder"
+    group = "verification"
+    doLast {
+        delete 'build'
+    }
+}
+
+task buildAndOpen(dependsOn: 'build',type:Exec) {
+    group = "build"
+    description = "Build and open in default browser"
+    workingDir 'build'
+    commandLine 'cmd', '/c', 'start html/index.html'
+}

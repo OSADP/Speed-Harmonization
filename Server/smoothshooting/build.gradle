@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+sourceCompatibility = 1.8
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile project(':speedharm-common')
+
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.5'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.5'
+}

@@ -1,0 +1,59 @@
+@import "themes/main_colors";
+@import "themes/main_fonts";
+@import "utils/mixins";
+
+$header_height: 70px;
+$footer_height: 35px;
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $background_color1;
+}
+
+#body {
+  height: 100%;
+  padding-bottom: $footer_height;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+
+
+#header {
+  @include hv_centered_flex;
+  @include heavy_emphasis_text($header_height / 2);
+  width: 100%;
+  height: $header_height;
+  background-color: $primary_color;
+}
+
+#footer {
+  @include hv_centered_flex;
+  width: 100%;
+  height: $footer_height;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: $text_on_dark;
+  background-color: $secondary_color;
+  font-size: $footer_height / 1.5;
+  font-weight: bolder;
+}
+
+div.flexwrapper {
+  @include flexrow;
+}
+
+div.flexgroup {
+  @include flexcolumn;
+  background-color: $tertiary_color;
+  padding: 10px;
+}
+
+

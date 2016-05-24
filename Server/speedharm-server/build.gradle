@@ -1,0 +1,102 @@
+group 'fhwa-saxton'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+task copyStaticWebContent(dependsOn: ':speedharm-ui:build', type:Sync) {
+    inputs.dir file("../speedharm-ui/build")
+    outputs.dir file("src/main/resources/static")
+
+    from "../speedharm-ui/build"
+    into "src/main/resources/static"
+    includeEmptyDirs true
+}
+
+compileJava {
+    dependsOn copyStaticWebContent
+}
+
+task dev {
+    group = 'Spring Profiles'
+    description = 'Set the dev profile to be active for the bootRun task'
+    doLast {
+        bootRun.systemProperty 'spring.profiles.active', 'dev'
+    }
+}
+
+task randomRtms {
+    group = 'Spring Profiles'
+    description = 'Set the mockRtms profile to be active for the bootRun task'
+    doLast {
+        bootRun.systemProperty 'spring.profiles.active', 'dev,mockRtms,randomRtms'
+    }
+}
+
+task replayRtms {
+    group = 'Spring Profiles'
+    description = 'Set the replayRtms profile to be active for the bootRun task'
+    doLast {
+        bootRun.systemProperty 'spring.profiles.active', 'dev,mockRtms,replayRtms'
+    }
+}
+
+task prod {
+    group = 'Spring Profiles'
+    description = 'Set the prod profile to be active for the bootRun task'
+    doLast {
+        bootRun.systemProperty 'spring.profiles.active', 'prod'
+    }
+}
+
+dependencies {
+    // Depend on API objects
+    compile project(':speedharm-common')
+    compile project(':smoothshooting')
+
+    // Exclude logback from classpath to allow us to use Log4j2
+    compile('org.springframework.boot:spring-boot-starter') {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+    compile('org.springframework.boot:spring-boot-starter-web:1.3.1.RELEASE') {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+    compile('org.springframework.boot:spring-boot-starter-actuator') {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+    compile('org.springframework.boot:spring-boot-starter-log4j2')
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf') {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+    compile('org.springframework.boot:spring-boot-starter-data-jpa') {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+
+    compile('org.apache.commons:commons-csv:1.2')
+
+    // Used to encode JSR-310 types in Jackson
+    compile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.6.1')
+
+    // Connector/J Test Dependency
+    compile('mysql:mysql-connector-java:5.1.38')
+
+    // SQL Server Connector Dependency et al
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    // Reflections library used to load algorithms classes from JARs
+    compile group:'org.reflections', name: 'reflections', version: '0.9.9-RC1'
+
+    testCompile('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '1.+'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'com.jayway.jsonpath', name: 'json-path'
+}

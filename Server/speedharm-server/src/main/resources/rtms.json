@@ -1,0 +1,26 @@
+[
+  {
+    "name": "FHWA_RTMS_T3",
+    "lat": -78.888,
+    "lon": 33.333,
+    "dataSource": "RTMS"
+  },
+  {
+    "name": "FHWA_RTMS_T4",
+    "lat": -77.777,
+    "lon": 33.333,
+    "dataSource": "RTMS"
+  },
+  {
+    "name": "FHWA_RTMS_T5",
+    "lat": -76.666,
+    "lon": 33.333,
+    "dataSource": "RTMS"
+  },
+  {
+    "name": "FHWA_RTMS_T6",
+    "lat": -75.555,
+    "lon": 33.333,
+    "dataSource": "RTMS"
+  }
+]

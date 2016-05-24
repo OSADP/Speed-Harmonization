@@ -1,0 +1,31 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#currentContent {
+    min-height:100%;
+    background: #17375e;
+    position:relative;
+}
+
+#body {
+    background: #17375e;
+    padding:10px;
+}
+
+img.scale {
+    display:block;
+    margin-left:22;
+    /* margin-right:auto; */
+    padding-top:50px;
+    /* float:right; */
+}
+
+.pageTitle {
+    text-align:center;
+    font-size:30pt;
+    padding-top:10px;
+}
+

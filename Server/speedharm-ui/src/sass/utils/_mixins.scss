@@ -1,0 +1,45 @@
+@mixin hv_centered_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin heavy_emphasis_text($height) {
+  color: $text_on_dark;
+  font-size: $height;
+  -webkit-text-stroke: 2px #000000;
+  font-weight: bold;
+}
+
+@mixin vertically_scrollable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(77, 77, 77, 0.87);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(77, 77, 77, 0.87);
+  }
+}
+
+@mixin flexrow {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+@mixin flexcolumn {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}

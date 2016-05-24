@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ControlDesk NG 5.3</creator>
+	<project>
+		<Creator type="key">ControlDesk NG</Creator>
+		<Name type="key">SpeedHarm22.CDP</Name>
+		<DisplayName type="key">SpeedHarm22</DisplayName>
+		<Flags type="key">4096</Flags>
+		<Type type="key">1</Type>
+		<UniqueID type="key">919577231</UniqueID>
+		<EntityID type="key">{38F28B82-3064-403F-AB49-BF5D0540E3DF}</EntityID>
+		<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAddInfoDb type="key"/>
+		<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+		<item>
+			<Targets type="key">project</Targets>
+			<Name type="key">SpeedHarm22</Name>
+			<DisplayName type="key">SpeedHarm22</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">431517497</UniqueID>
+			<EntityID type="key">{C9E94E39-6CD2-42D1-A1BA-08601C738C3A}</EntityID>
+			<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			<item>
+				<Docs type="key">.doc,.docx,.pdf</Docs>
+				<Name type="key">Specifications</Name>
+				<DisplayName type="key">Specifications</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">799166311</UniqueID>
+				<EntityID type="key">{F658B5E4-C36A-4EF4-A0E0-8CD2DF92C021}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.doc,.docx,.pdf</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+			<item>
+				<Docs type="key">.mpp</Docs>
+				<Name type="key">Project Plans</Name>
+				<DisplayName type="key">Project Plans</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">5632620</UniqueID>
+				<EntityID type="key">{CAE406D3-A792-4B72-A69D-3F22FBE510F1}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.mpp</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager_global</Targets>
+				<Name type="key">Global Data Sets</Name>
+				<DisplayName type="key">Global Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">29</Type>
+				<UniqueID type="key">117480894</UniqueID>
+				<EntityID type="key">{D5BBB897-BD9E-4989-A998-CA1FA9666515}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">variablesmanagement</Targets>
+				<Name type="key">Variable Descriptions</Name>
+				<DisplayName type="key">Variable Descriptions</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">415211267</UniqueID>
+				<EntityID type="key">{0D28370F-5B26-4A3E-A2D1-DFF8B306D7E8}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">SpeedHarm22.vdb</Name>
+					<DisplayName type="key">C:\Users\leslieem\Documents\TOPR 22\Control\SpeedHarm22-MAB\dSPACE\SpeedHarm22\Variable Descriptions\SpeedHarm22.vdb</DisplayName>
+					<Path type="key">.\Variable Descriptions</Path>
+					<Flags type="key">276</Flags>
+					<Type type="key">18</Type>
+					<UniqueID type="key">317709395</UniqueID>
+					<EntityID type="key">{F58D32D8-0D06-4047-A6E6-CFAE65E02085}</EntityID>
+					<ItemInfoDate type="key">4/1/2016 12:38:04 PM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">speedharm.sdf</Name>
+					<DisplayName type="key">speedharm.sdf</DisplayName>
+					<Path type="key">.\Variable Descriptions\speedharm.sdf</Path>
+					<Flags type="key">18704</Flags>
+					<Type type="key">7</Type>
+					<UniqueID type="key">204387233</UniqueID>
+					<EntityID type="key">{5F15BBCA-CC08-4893-9BAA-6E6F96BC582A}</EntityID>
+					<ItemInfoDate type="key">4/1/2016 12:38:02 PM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoLog type="key">
+Original file added from ..\..\bld\speedharm.sdf [2016-4-1 15:27:28 (UTC)]
+
+Variable description reloaded on 01.04.2016 14:51:04 (C:\Users\leslieem\Documents\TOPR 22\Control\SpeedHarm22-MAB\bld\speedharm.sdf)
+Original file added from ..\..\bld\speedharm.sdf [2016-4-1 18:47:54 (UTC)]
+
+Variable description reloaded on 01.04.2016 15:06:55 (C:\Users\leslieem\Documents\TOPR 22\Control\SpeedHarm22-MAB\bld\speedharm.sdf)
+Original file added from ..\..\bld\speedharm.sdf [2016-4-1 19:5:55 (UTC)]
+</ItemInfoLog>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">speedharm.trc</Name>
+						<DisplayName type="key">speedharm.trc</DisplayName>
+						<Path type="key">.\Variable Descriptions\speedharm.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">753221554</UniqueID>
+						<EntityID type="key">{A6514935-3B58-4F7F-9F69-EA4527F15727}</EntityID>
+						<ItemInfoDate type="key">4/1/2016 3:06:55 PM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">speedharm.map</Name>
+						<DisplayName type="key">speedharm.map</DisplayName>
+						<Path type="key">.\Variable Descriptions\speedharm.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">1046223969</UniqueID>
+						<EntityID type="key">{23948597-5B05-4445-B251-6EB14C24172A}</EntityID>
+						<ItemInfoDate type="key">4/1/2016 3:06:55 PM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">speedharm.ppc</Name>
+						<DisplayName type="key">speedharm.ppc</DisplayName>
+						<Path type="key">.\Variable Descriptions\speedharm.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">30</Type>
+						<UniqueID type="key">219545253</UniqueID>
+						<EntityID type="key">{CDC7074C-65EA-44DE-A1B8-ADAB9E5C6A4B}</EntityID>
+						<ItemInfoDate type="key">4/1/2016 3:06:55 PM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">speedharm.trz</Name>
+						<DisplayName type="key">speedharm.trz</DisplayName>
+						<Path type="key">.\Variable Descriptions\speedharm.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">200667985</UniqueID>
+						<EntityID type="key">{281D5E7B-E0BC-4FF9-B669-BE5CDBD11692}</EntityID>
+						<ItemInfoDate type="key">4/1/2016 3:06:55 PM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+					</item>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager</Targets>
+				<Name type="key">Data Sets</Name>
+				<DisplayName type="key">Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">29</Type>
+				<UniqueID type="key">922330712</UniqueID>
+				<EntityID type="key">{5748D264-7D56-4223-BC9B-E846AE59757A}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.vfe</Targets>
+				<Name type="key">Variable Filters</Name>
+				<DisplayName type="key">Variable Filters</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">2304</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">961683012</UniqueID>
+				<EntityID type="key">{B48320F8-09D4-42AB-9AFA-20AA2D737E96}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.lab</Targets>
+				<Docs type="key">.lab,.txt</Docs>
+				<Name type="key">Label Lists</Name>
+				<DisplayName type="key">Label Lists</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">319328214</UniqueID>
+				<EntityID type="key">{5BBB38F2-8713-4DD4-99E0-D34873E8BE63}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.lab,.txt</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">devicemanagement,platformmanagement</Targets>
+				<Name type="key">Global Devices</Name>
+				<DisplayName type="key">Global Devices</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">534086008</UniqueID>
+				<EntityID type="key">{00801BBC-4632-4FE1-B637-465E4ED910B7}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">interpreter,.py</Targets>
+				<Docs type="key">.py</Docs>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<ExtendedFlags type="key">128</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">318981235</UniqueID>
+				<EntityID type="key">{D0FD0E8A-E362-4F1D-A938-DA96B0F8D50D}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.py</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">busnavigator,.xml</Targets>
+				<Name type="key">BusNavigator</Name>
+				<DisplayName type="key">BusNavigator</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">4</Flags>
+				<ExtendedFlags type="key">256</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">708660282</UniqueID>
+				<EntityID type="key">{46129629-0DFF-48BD-939A-0184DEF5F6D5}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">signaleditor</Targets>
+				<Name type="key">Signal Description Sets</Name>
+				<DisplayName type="key">Signal Description Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">648417162</UniqueID>
+				<EntityID type="key">{87FADDB7-9FBA-48FB-A2F9-E8A1D6A29A7C}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:37:59 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<Name type="key">Events</Name>
+			<DisplayName type="key">Events</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">108847555</UniqueID>
+			<EntityID type="key">{F3A4D3CE-A8D4-4CAE-93BA-2A9E426E3FE3}</EntityID>
+			<ItemInfoDate type="key">4/1/2016 12:38:02 PM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			<item>
+				<Name type="key">Project.events</Name>
+				<DisplayName type="key">Project.events</DisplayName>
+				<Path type="key">.\Events</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">52</Type>
+				<UniqueID type="key">554240685</UniqueID>
+				<EntityID type="key">{F971EEA0-CA1D-4F43-B0BB-005A8743D530}</EntityID>
+				<ItemInfoDate type="key">4/1/2016 12:38:02 PM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+			</item>
+		</item>
+	</project>
+	<experiments>
+		<experiment>
+			<Creator type="key">ControlDesk NG</Creator>
+			<Name type="key">Experiment_001.CDE</Name>
+			<DisplayName type="key">Experiment_001</DisplayName>
+			<Path type="key">.\Experiment_001</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">1045362565</UniqueID>
+			<EntityID type="key">{CB630D93-A261-4DA3-8D02-32F9DB768343}</EntityID>
+			<ItemInfoDate type="key">4/1/2016 12:38:00 PM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">leslieem</ItemInfoAuthor>
+		</experiment>
+	</experiments>
+	<UserManager/>
+	<Interpreter/>
+	<VariablesManagement Version="4">
+		<CreatorVersion type="key">503000486</CreatorVersion>
+	</VariablesManagement>
+	<ProjectExperiment>
+		<LastActiveExperiment type="key">Experiment_001</LastActiveExperiment>
+	</ProjectExperiment>
+	<MeasuredDataNavigator/>
+	<MeasureDataManagement Version="4"/>
+	<Instrumentation Version="1">
+		<UniqueIds Version="3">
+			<Count type="key">1</Count>
+			<File1 type="key">Experiment_001/Layout1</File1>
+			<Id1 type="key">0</Id1>
+		</UniqueIds>
+	</Instrumentation>
+	<DiagnosticsManagement/>
+	<PlatformManagement Version="5"/>
+	<DataSetManager>
+		<Version>
+			<Version type="key">2</Version>
+		</Version>
+		<Work/>
+		<ActiveWork/>
+		<Reference/>
+		<ActiveReference/>
+		<Master/>
+		<ActiveMaster/>
+		<InitialMaster/>
+		<Incomplete/>
+		<IncompleteReadonly/>
+		<DataSet/>
+		<Readonly/>
+		<LabelListFilter>
+			<LabelListFilterFile type="key"/>
+			<LabelListFilterActive type="key">0</LabelListFilterActive>
+		</LabelListFilter>
+		<AutomaticDownload/>
+	</DataSetManager>
+</Root>
