@@ -1,13 +1,13 @@
 ﻿Open Source Overview
 ============================
 Speed Harmonization
-Version 1.0
+Version 1.0.1
 
 Description:
 The Speed Harm software is composed of three components.
   * the control software (version 1.1) is written in Simulink and runs on the vehicle's MicroAutobox II (MAB).
   * the DVI software (version 1.0) is written in Java and runs on the vehicle's secondary computer, which is an Ubuntu Linux PC.
-  * the server software (version 1.0) is written in Java and runs on an independent server intended to simulate a TMC facility.
+  * the server software (version 1.0.1) is written in Java and runs on an independent server intended to simulate a TMC facility.
 
 The two vehicle components set on top of the reusable platform software in the TFHRC's CARMA fleet of Cadillac SRXs (CARMA software). 
 Together with the CARMA MAB software, the MAB component measures several vehicle state parameters and reports them to the secondary computer.  It also takes in speed commands from the secondary computer and controls the vehicle to smoothly achieve the current speed command.
@@ -22,6 +22,8 @@ Installation and removal instructions
 Microautobox:  this is a complicated build & install process, which involves the software from the CARMA library as well.  It is described in the document "Speed Harm MAB Software Installation Instructions.docx" in the MAB/docs directory.  Note that it is intended to work with version 2.0 of the CARMA MAB software.
 
 Secondary computer:  the secondary software runs on Java 1.8, which needs to be installed first. All of its functionality and resources are packaged in a single jar file, which needs to be installed in a directory named /opt/speedharm.  It will also need a directory named /opt/speedharm/logs.  To build this jar file, the developer must first add the CarmaSecondary 2.0 library to the local Maven repository, then execute a maven clean install using the project files from this repository; doing so will include the CarmaSecondary library into the final jar file.
+
+Server:  server installation is described in the document "Speed Harmonization Server Installation Guide.docx" in the Server directory.
 
 
 License information
