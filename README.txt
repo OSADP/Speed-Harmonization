@@ -47,12 +47,3 @@ Processing power:  Intel Core I3 @ 1.6 GHz or equivalent
 Connectivity:  ethernet
 Operating systems supported:  Windows 7 or Windows Server 2008
 
-
-Documentation
--------------
-A brief summary of the high level design is included in the OSADP directory tree.
-
-Web sites
----------
-The software is distributed through the USDOT's JPO Open Source Application Development Portal (OSADP)
-http://itsforge.net/ 
